@@ -1,16 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rafay's Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f5f5f5;
+    }
+    .profile-img {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #1f028b;
+    }
+  </style>
 </head>
 <body>
-    <h1>This is a paragraph</h1>
-    <ol>
-        <li>mobile</li>
-        <li>laptop</li>
-        <li>smart</li>
-    </ol>
+
+  <div class="container py-4">
+    <div class="text-center mb-4">
+      <h1 class="text-primary">Hello, I'm Rafay Moqeet Ahmad</h1>
+      <p class="lead text-muted">Final year student aspiring to be a full-stack web developer</p>
+      <img src="./rafay.jpg.jpeg" alt="Rafay" class="profile-img mb-3">
+    </div>
+
+    <hr>
+
+    <section class="mb-4">
+      <h2 class="text-info">About</h2>
+      <p>I am learning web development with AI. I work on both backend and frontend projects.</p>
+    </section>
+
+    <section class="mb-4">
+      <h2 class="text-info">Experience</h2>
+      <p class="text-muted">Fresher — Seeking my first professional experience</p>
+    </section>
+
+    <section class="mb-4">
+      <h2 class="text-info">Education</h2>
+      <p>Bachelor of Information Technology (BS-IT)</p>
+    </section>
+
+    <section class="mb-4">
+      <h2 class="text-info">Skills</h2>
+      <ul>
+        <li>Frontend Development</li>
+        <li>Backend Development</li>
+      </ul>
+    </section>
+
+    <section class="mb-4">
+      <h2 class="text-info">Contact</h2>
+      <p><strong>Phone:</strong> 0303 7176675</p>
+      <p><strong>Address:</strong> District Toba Tek Singh, Tehsil Pirmahal</p>
+    </section>
+
+    <section class="mb-4">
+      <h2 class="text-info">Quote</h2>
+      <blockquote class="blockquote">"I am learning web development at Next Skill."</blockquote>
+    </section>
+
+    <section class="mb-4">
+      <h2 class="text-info">Table of Info</h2>
+      <table class="table table-bordered">
+        <thead class="table-dark">
+          <tr>
+            <th>Name</th>
+            <th>Education</th>
+            <th>Skills</th>
+            <th>Experience</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Rafay Moqeet</td>
+            <td>Matric</td>
+            <td>Web Developer</td>
+            <td>1 year</td>
+          </tr>
+          <tr>
+            <td>Ahmad</td>
+            <td>Master</td>
+            <td>Web Designer</td>
+            <td>2 years</td>
+          </tr>
+          <tr>
+            <td>Ali</td>
+            <td>MPhil</td>
+            <td>AI Specialist</td>
+            <td>5 years</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="mb-4">
+      <h2 class="text-info">Media</h2>
+      <div class="row g-3">
+        <div class="col-md-4">
+          <video src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4" controls class="w-100"></video>
+        </div>
+        <div class="col-md-4">
+          <audio controls class="w-100">
+            <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4" type="audio/mp4">
+          </audio>
+        </div>
+        <div class="col-md-4">
+          <iframe width="100%" height="215" src="https://www.youtube.com/embed/Ot89uSWqzOM" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-4">
+      <h2 class="text-info">Google Maps</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." width="100%" height="400" style="border:0;" allowfullscreen></iframe>
+    </section>
+
+    <section class="mb-4">
+      <h2 class="text-info">Form</h2>
+      <form>
+        <div class="mb-3">
+          <label for="emailInput" class="form-label">Email</label>
+          <input type="email" class="form-control" id="emailInput" placeholder="Enter your email">
+        </div>
+        <div class="mb-3">
+          <label for="passwordInput" class="form-label">Password</label>
+          <input type="password" class="form-control" id="passwordInput" placeholder="Enter your password">
+        </div>
+        <div class="mb-3">
+          <label for="textarea" class="form-label">Your Message</label>
+          <textarea class="form-control" id="textarea" rows="4"></textarea>
+        </div>
+        <button class="btn btn-primary">Sign In</button>
+      </form>
+    </section>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
